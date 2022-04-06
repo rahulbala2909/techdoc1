@@ -1,0 +1,101 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.menu .ul{
+    display: block;
+    text-decoration: none;
+    list-style-type: none;
+    height: 98%;
+    overflow: auto;
+    padding: 0 2vh 2vh 2vh;
+    top: -2vh;
+    position: relative;
+    float: left;
+    background-color: rgb(173, 168, 168);
+}
+
+.menu li {
+    padding: 2vh;
+    height: 2%;
+}
+
+.menu li:hover {
+    background-color: #059862;
+    cursor: pointer;
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+}
+
+li.active{
+    background-color: #059862;
+}
+
+.innerul{
+    height: 20%;
+    list-style-type: none;
+    padding: 2px;
+}
+
+.inl{
+    margin-top: 12vh;
+}
+
+.content{
+    height: 80%;
+    position: relative;
+    left: 2vh;
+    pointer-events: none;
+    width: 84%;
+}
+
+.content .header h3{
+    text-align: center;
+}
+
+.content .box{
+    border: 2px solid black;
+    position: relative;
+    left: 28vh;
+    height: 55%;
+    font-size: xx-large;
+    background-color: gray;
+}
+
+.content .box h4{
+    position: relative;
+    left: -25vh;
+}
+
+.bcontent a{
+    text-decoration: none;
+    color: red;
+}
+
+.bcontent p{
+    font-size: xx-large;
+}
+
+.ex{
+    background-color: rgba(182, 182, 182,0.8);
+    position: relative;
+    left: 28vh;
+    height: 48%;
+
+}
+
+.ex h2,h4{
+    position: relative;
+    right: 25vh;
+    font-size: x-large;
+    padding: 2vh;
+}
+
+.code{
+    background-color: white;
+    border-left: 3px solid #059862;
+    position: relative;
+    left: 1vh;
+}
